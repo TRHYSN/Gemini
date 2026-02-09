@@ -1,0 +1,8 @@
+{
+  "name": "EcoSense: Environmental Semantic Agent",
+  "description": "A Gemini 3-powered security agent that analyzes audio context, reconstructs semantic narratives, and simulates cross-device security protocols.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}
