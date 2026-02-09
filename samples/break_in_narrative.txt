@@ -1,0 +1,15 @@
+Case ID: 24-0210-BI
+
+At 02:11:03, the front-door contact sensor transitioned from CLOSED to OPEN while the security system was armed (Away mode).
+At 02:11:08, the hallway PIR motion sensor triggered (MOTION) for 6 seconds.
+At 02:11:12, the living-room acoustic sensor detected a sharp impulse consistent with glass impact.
+At 02:11:19, a smart lock event log shows "unlock_attempt_failed" (3 attempts) followed by "manual_override_detected".
+At 02:11:35, the kitchen camera recorded a 2-second blackout (no frames) and then resumed with low-light grain.
+At 02:11:41, the Wi‑Fi router logged a brief deauth storm affecting the kitchen camera and living-room hub.
+At 02:12:05, a window contact sensor (east window) reported OPEN but returned to CLOSED after 12 seconds.
+At 02:12:22, the alarm siren was activated; at 02:12:24 it was immediately silenced via keypad code entry.
+At 02:12:31, a new keypad code was added by the admin account.
+At 02:13:10, the garage door sensor reported OPEN; at 02:13:55 it reported CLOSED.
+
+Resident states they were asleep upstairs and did not hear the siren.
+No authorized user should have been present at that time.

@@ -12,6 +12,14 @@ dist
 dist-ssr
 *.local
 
+# Python / Streamlit
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/secrets.toml
+.python-version
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

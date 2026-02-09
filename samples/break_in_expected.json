@@ -1,0 +1,24 @@
+{
+  "anomaly_curve": [
+    { "t": "02:11:03", "score": 0.62 },
+    { "t": "02:11:12", "score": 0.78 },
+    { "t": "02:11:41", "score": 0.86 },
+    { "t": "02:12:24", "score": 0.91 },
+    { "t": "02:12:31", "score": 0.88 },
+    { "t": "02:13:10", "score": 0.74 }
+  ],
+  "event_timeline": [
+    { "t": "02:11:03", "event": "Front door opened while armed (Away mode).", "confidence": 0.9 },
+    { "t": "02:11:08", "event": "Hallway motion detected shortly after door open.", "confidence": 0.85 },
+    { "t": "02:11:12", "event": "Acoustic impulse suggests forced entry via glass impact.", "confidence": 0.7 },
+    { "t": "02:11:19", "event": "Failed unlock attempts followed by manual override on smart lock.", "confidence": 0.8 },
+    { "t": "02:11:35", "event": "Kitchen camera brief blackout; potential interference/tampering.", "confidence": 0.65 },
+    { "t": "02:11:41", "event": "Wi‑Fi deauth storm impacts camera/hub; likely active disruption.", "confidence": 0.75 },
+    { "t": "02:12:22", "event": "Siren activated; immediately silenced via keypad entry.", "confidence": 0.9 },
+    { "t": "02:12:31", "event": "New keypad code added by admin account (suspicious).", "confidence": 0.85 },
+    { "t": "02:13:10", "event": "Garage door opened and later closed; possible exit route.", "confidence": 0.8 }
+  ],
+  "draft_report": "Sequence indicates probable unauthorized entry: front door opened while armed, rapid motion, and a glass-impact-like impulse. Smart lock logs show failed attempts then manual override. Camera blackout and router deauth storm suggest deliberate wireless disruption. Alarm was activated but silenced almost immediately with a valid keypad code, followed by creation of a new code under the admin account, indicating compromised credentials or insider access. Garage door activity aligns with a plausible departure route.",
+  "consistency_check": "The immediate siren silence via keypad conflicts with the resident claiming they were asleep and unaware; either the keypad code was known to the intruder, or an authorized party interacted with the system. The east window open/close could be a secondary entry attempt or sensor glitch; timing is consistent with movement through that area but less supported than door/lock evidence.",
+  "final_report": "Most likely scenario: an intruder gained access near 02:11 via the front door (or forced lock override), disrupted Wi‑Fi to reduce camera reliability, triggered the alarm, and then silenced it using a valid keypad code. The subsequent addition of a new keypad code under the admin account strongly suggests account compromise or insider activity. Garage door open/close shortly afterward is consistent with exit and vehicle access. Recommended next steps: audit admin account access, rotate all keypad codes, review camera footage around blackout, and inspect lock/door for tamper evidence."
+}
